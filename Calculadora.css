@@ -118,6 +118,29 @@ span button {
   margin-top:45px;
   margin-left:-90px;
 }
+
+@media screen and (max-width:1440px) {
+.calc{
+  margin-left: 370px;
+}
+.pai{
+  margin-left: -110px;
+}
+.tema{
+  margin-left:10px;
+}
+span{
+  margin-left:-110px;
+
+}
+.display{
+  margin-left: 37%;
+}
+.container2{
+  margin-left: 37%;
+}
+}
+
 @media screen and (max-width:1280px) {
 .container2{
   margin-left: 35%;
@@ -267,6 +290,26 @@ span{
   span{
     margin-left: -20px;
   }
+}
+@media screen and (max-width:425px) {
+.display{
+  margin-left:25px;
+}
+.container2{
+  margin-left: 25px;
+}
+.calc{
+  margin-left: 10px;
+}
+.tema{
+  margin-left: -10px;
+}
+.pai{
+  margin-left: 0px;
+}
+span{
+  margin-left: 0;
+}
 }
 @media screen and (max-width:414px){
   .display{
