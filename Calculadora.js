@@ -150,6 +150,7 @@ equal.addEventListener('click', function () {
         alert('Conta invalida!')
         display.value = ''
     }
+    //a
 
 
 })
