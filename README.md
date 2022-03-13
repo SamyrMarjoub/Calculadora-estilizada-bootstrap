@@ -1,6 +1,6 @@
 # Calculadora-estilizada-bootstrap
 Calculadora com HTML+ CSS+ JS + BOOTSTRAP.
 
-<div>  <img src='CalculadoraImage.png' </div>
+<div>  <img src='./images/Calculator.png' </div>
   <br>
   <div> <img src='./images/Calculator-purple.png'> </div>
