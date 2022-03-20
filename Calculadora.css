@@ -128,6 +128,11 @@ display: flex;
    margin-top: 50px;
  } 
 }
+@media screen and (max-width:500px) {
+  .bg{
+    margin-top: 50px;
+  }
+}
 @media screen and (max-width:400px) {
   .calculadora{
     height: 400px;
@@ -137,7 +142,7 @@ display: flex;
     width: 305px;
   }
   .bg{
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .btn22{
     height: 65px;
