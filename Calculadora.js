@@ -1,7 +1,3 @@
-
-const butao1 = document.querySelector('.btn1')
-const butao2 = document.querySelector('.btn2')
-const butao3 = document.querySelector('.btn3')
 const filho = document.querySelector('.filho')
 const body = document.body
 const container2 = document.querySelector('.container2')
@@ -19,7 +15,7 @@ const bt1 = document.querySelector('.btn1')
 const bt2 = document.querySelector('.btn2')
 const bt3 = document.querySelector('.btn3')
 let btnnum
-butao1.addEventListener('click', function () {
+bt1.addEventListener('click', function () {
     filho.style.marginLeft = '10px'
     body.style.backgroundColor = '#3b4664'
     container2.style.backgroundColor = '#252d44'
@@ -42,13 +38,8 @@ butao1.addEventListener('click', function () {
     calc.style.color = 'white'
     tema.style.color = 'white'
     ispan.style.color = 'white'
-    bt1.style.backgroundColor = '#3b4664'
-    bt2.style.backgroundColor = '#3b4664'
-    bt3.style.backgroundColor = '#3b4664'
-
-
 })
-butao2.addEventListener('click', function () {
+bt2.addEventListener('click', function () {
     filho.style.marginLeft = '40px';
     body.style.backgroundColor = '#e6e6e6'
     container2.style.backgroundColor = '#d3cdcd'
@@ -72,12 +63,8 @@ butao2.addEventListener('click', function () {
     calc.style.color = 'black'
     tema.style.color = 'black'
     ispan.style.color = 'black'
-    bt1.style.backgroundColor = '#e6e6e6'
-    bt2.style.backgroundColor = '#e6e6e6'
-    bt3.style.backgroundColor = '#e6e6e6'
-
 })
-butao3.addEventListener('click', function () {
+bt3.addEventListener('click', function () {
     filho.style.marginLeft = '75px'
     body.style.backgroundColor = '#17062a'
     container2.style.backgroundColor = '#1e0836'
@@ -88,7 +75,6 @@ butao3.addEventListener('click', function () {
     for (let i = 0; i < btns.length; i++) {
         btns[i].style.color = '#ffe542';
     }
-
     del.style.color = 'white'
     reset.style.color = 'white'
     equal.style.backgroundColor = '#00decf'
@@ -101,22 +87,13 @@ butao3.addEventListener('click', function () {
     tema.style.color = '#ffe442'
     ispan.style.color = '#ffe442'
     equal.style.color = '#black'
-    bt1.style.backgroundColor = '#17062a'
-    bt2.style.backgroundColor = '#17062a'
-    bt3.style.backgroundColor = '#17062a'
-
 })
-
-
 btnnum = document.querySelectorAll(".btn-num");
 const btnsoma = document.querySelector('.btn-soma')
 const btndiv = document.querySelector('.btn-div')
 const btnsub = document.querySelector('.btn-sub')
 const btnmulti = document.querySelector('.btn-multi')
-
-
 display.focus()
-
 for (let i = 0; i < btnnum.length; i++) {
     btnnum[i].addEventListener("click", function (e) {
         console.log(e.target)
@@ -138,7 +115,6 @@ btnmulti.addEventListener('click', function (e) {
 btnsoma.addEventListener('click', function (e) {
     display.value += btnsoma.innerHTML.slice(0, 0)
 })
-
 reset.addEventListener('click', function () {
     display.value = ''
 })
@@ -150,6 +126,4 @@ equal.addEventListener('click', function () {
         alert('Conta invalida!')
         display.value = ''
     }
-
-
 })
